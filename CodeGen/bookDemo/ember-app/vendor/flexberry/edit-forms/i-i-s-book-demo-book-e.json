@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "Книга",
+  "name": "IISbookDemoBookE",
+  "className": "BookE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-book-demo-book",
+      "modelProjection": "BookE"
+    }
+  ]
+}

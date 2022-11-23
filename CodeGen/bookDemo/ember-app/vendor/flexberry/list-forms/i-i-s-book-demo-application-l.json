@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-book-demo-application-e",
+  "editForm": "i-i-s-book-demo-application-e",
+  "external": false,
+  "caption": "Заявки",
+  "name": "IISbookDemoApplicationL",
+  "className": "ApplicationL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-book-demo-application",
+      "modelProjection": "ApplicationL"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+﻿{
+  "name": "IISbookDemoMeetingPlan",
+  "modelName": "i-i-s-book-demo-meeting-plan",
+  "className": "MeetingPlan",
+  "nameSpace": "IIS.bookDemo",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "meetingDate",
+      "type": "date",
+      "flexberryType": "DateTime",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "MeetingPlanE",
+      "modelName": "i-i-s-book-demo-meeting-plan",
+      "attrs": [
+        {
+          "name": "meetingDate",
+          "caption": "Дата встречи",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    },
+    {
+      "name": "MeetingPlanL",
+      "modelName": "i-i-s-book-demo-meeting-plan",
+      "attrs": [
+        {
+          "name": "meetingDate",
+          "caption": "Дата встречи",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

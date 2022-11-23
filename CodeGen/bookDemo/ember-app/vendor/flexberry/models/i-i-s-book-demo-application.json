@@ -1,0 +1,167 @@
+﻿{
+  "name": "IISbookDemoApplication",
+  "modelName": "i-i-s-book-demo-application",
+  "className": "Application",
+  "nameSpace": "IIS.bookDemo",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "applicationDate",
+      "type": "date",
+      "flexberryType": "DateTime",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "speaker",
+      "relatedTo": "i-i-s-book-demo-speaker",
+      "inverse": null
+    },
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "book",
+      "relatedTo": "i-i-s-book-demo-book",
+      "inverse": null
+    }
+  ],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "ApplicationE",
+      "modelName": "i-i-s-book-demo-application",
+      "attrs": [
+        {
+          "name": "applicationDate",
+          "caption": "Дата заявки",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [
+        {
+          "lookupValue": null,
+          "lookupValueField": null,
+          "relationName": "Speaker",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "surname",
+              "caption": "~",
+              "hidden": true,
+              "index": 2
+            },
+            {
+              "name": "name",
+              "caption": "~",
+              "hidden": true,
+              "index": 3
+            },
+            {
+              "name": "patronymic",
+              "caption": "~",
+              "hidden": false,
+              "index": 4
+            }
+          ],
+          "index": 1,
+          "type": "default",
+          "caption": "Спикер",
+          "name": "speaker",
+          "relatedTo": "i-i-s-book-demo-speaker",
+          "inverse": null
+        },
+        {
+          "lookupValue": "Name",
+          "lookupValueField": "name",
+          "relationName": "Book",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "name",
+              "caption": "~",
+              "hidden": true,
+              "index": 6
+            }
+          ],
+          "index": 5,
+          "type": "standard",
+          "caption": "Название книги",
+          "name": "book",
+          "relatedTo": "i-i-s-book-demo-book",
+          "inverse": null
+        }
+      ],
+      "hasMany": []
+    },
+    {
+      "name": "ApplicationL",
+      "modelName": "i-i-s-book-demo-application",
+      "attrs": [
+        {
+          "name": "applicationDate",
+          "caption": "Дата заявки",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [
+        {
+          "lookupValue": null,
+          "lookupValueField": null,
+          "relationName": "Speaker",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "surname",
+              "caption": "Спикер",
+              "hidden": false,
+              "index": 1
+            }
+          ],
+          "index": -1,
+          "type": "default",
+          "caption": "Спикер",
+          "name": "speaker",
+          "relatedTo": "i-i-s-book-demo-speaker",
+          "inverse": null
+        },
+        {
+          "lookupValue": null,
+          "lookupValueField": null,
+          "relationName": "Book",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "name",
+              "caption": "Название книги",
+              "hidden": false,
+              "index": 2
+            }
+          ],
+          "index": -1,
+          "type": "default",
+          "caption": "Название книги",
+          "name": "book",
+          "relatedTo": "i-i-s-book-demo-book",
+          "inverse": null
+        }
+      ],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

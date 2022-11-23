@@ -1,0 +1,50 @@
+﻿{
+  "applicationCaption": "Книжный клуб",
+  "applicationTitle": "Книжный клуб",
+  "items": [
+    {
+      "link": null,
+      "menuName": "книжный-клуб",
+      "caption": "Книжный клуб",
+      "title": "Книжный клуб",
+      "children": [
+        {
+          "link": "i-i-s-book-demo-application-l",
+          "menuName": null,
+          "caption": "Заявки",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-book-demo-book-l",
+          "menuName": null,
+          "caption": "Книги",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-book-demo-club-meeting-l",
+          "menuName": null,
+          "caption": "Встречи клуба",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-book-demo-meeting-plan-l",
+          "menuName": null,
+          "caption": "Планы встреч",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-book-demo-speaker-l",
+          "menuName": null,
+          "caption": "Спикеры",
+          "title": "",
+          "children": null
+        }
+      ]
+    }
+  ],
+  "mobile": true
+}

@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "План встречи",
+  "name": "IISbookDemoMeetingPlanE",
+  "className": "MeetingPlanE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-book-demo-meeting-plan",
+      "modelProjection": "MeetingPlanE"
+    }
+  ]
+}

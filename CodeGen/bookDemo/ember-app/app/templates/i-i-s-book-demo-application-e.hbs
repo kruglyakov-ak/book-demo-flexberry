@@ -1,0 +1,81 @@
+<h3 class="ui header">{{t "forms.i-i-s-book-demo-application-e.caption"}}</h3>
+
+<form class="ui form flexberry-vertical-form" role="form">
+  {{flexberry-error error=error}}
+  <div class="field">
+    <div class="sixteen wide">
+      {{flexberry-validationsummary errors=(v-get validationObject "messages")}}
+    </div>
+  </div>
+  <div class="field">
+    <div class="flexberry-edit-panel">
+      {{#unless readonly}}
+        <button class="ui button save-button" {{action "save"}}>
+          {{t "forms.edit-form.save-button-text"}}
+        </button>
+        {{#unless model.isNew}}
+          <button class="ui button save-del-button" {{action "delete"}}>
+            {{t "forms.edit-form.delete-button-text"}}
+          </button>
+        {{/unless}}
+      {{/unless}}
+      <button class="ui button close-button" {{action "close"}}>
+        {{t "forms.edit-form.close-button-text"}}
+      </button>
+    </div>
+  </div>
+  <div class="field">
+    <label>{{t "forms.i-i-s-book-demo-application-e.applicationDate-caption"}}</label>
+    {{
+      flexberry-simpledatetime
+      type="date"
+      placeholder=(t 'components.flexberry-datepicker.placeholder')
+      readonly=readonly
+      value=model.applicationDate
+      class=(if (v-get validationObject "applicationDate" "isInvalid") "error")
+    }}
+    {{flexberry-validationmessage error=(v-get validationObject "applicationDate" "messages")}}
+  </div>
+
+  <div class="field">
+    <label>{{t "forms.i-i-s-book-demo-application-e.speaker-caption"}}</label>
+    {{flexberry-lookup
+      choose="showLookupDialog"
+      remove="removeLookupValue"
+      value=model.speaker
+      relationName="speaker"
+      projection="SpeakerL"
+      title=(t "forms.i-i-s-book-demo-application-e.speaker-caption")
+      readonly=readonly
+      componentName="speakerLookup"
+    }}
+    {{flexberry-validationmessage error=(v-get validationObject "speaker" "messages")}}
+  </div>
+
+  <div class="field">
+    {{flexberry-field
+      readonly=true
+      value=model.speaker.patronymic
+      class=(if (v-get validationObject "speaker.patronymic" "isInvalid") "error")
+      label=(t "forms.i-i-s-book-demo-application-e.speaker.patronymic-caption")
+    }}
+    {{flexberry-validationmessage error=(v-get validationObject "speaker.patronymic" "messages")}}
+  </div>
+  <div class="field">
+    <label>{{t "forms.i-i-s-book-demo-application-e.book-caption"}}</label>
+    {{flexberry-lookup
+      choose="showLookupDialog"
+      remove="removeLookupValue"
+      value=model.book
+      displayAttributeName="name"
+      autocomplete=true
+      relationName="book"
+      projection="BookL"
+      title=(t "forms.i-i-s-book-demo-application-e.book-caption")
+      readonly=readonly
+      componentName="bookLookup"
+    }}
+    {{flexberry-validationmessage error=(v-get validationObject "book" "messages")}}
+  </div>
+
+</form>

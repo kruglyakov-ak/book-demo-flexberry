@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-book-demo-book-e",
+  "editForm": "i-i-s-book-demo-book-e",
+  "external": false,
+  "caption": "Книги",
+  "name": "IISbookDemoBookL",
+  "className": "BookL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-book-demo-book",
+      "modelProjection": "BookL"
+    }
+  ]
+}

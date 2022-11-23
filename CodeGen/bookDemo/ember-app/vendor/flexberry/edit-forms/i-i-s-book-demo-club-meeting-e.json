@@ -1,0 +1,31 @@
+﻿{
+  "propertyLookup": [
+    {
+      "master": "speaker",
+      "displayAttributeName": "surname",
+      "required": true,
+      "relationName": "Report.Speaker",
+      "projection": "SpeakerL",
+      "detailModelName": "i-i-s-book-demo-report"
+    },
+    {
+      "master": "book",
+      "displayAttributeName": "name",
+      "required": true,
+      "relationName": "Report.Book",
+      "projection": "BookL",
+      "detailModelName": "i-i-s-book-demo-report"
+    }
+  ],
+  "external": false,
+  "caption": "Встреча клуба",
+  "name": "IISbookDemoClubMeetingE",
+  "className": "ClubMeetingE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-book-demo-club-meeting",
+      "modelProjection": "ClubMeetingE"
+    }
+  ]
+}

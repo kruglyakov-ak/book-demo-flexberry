@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-book-demo-meeting-plan-e",
+  "editForm": "i-i-s-book-demo-meeting-plan-e",
+  "external": false,
+  "caption": "Планы встреч",
+  "name": "IISbookDemoMeetingPlanL",
+  "className": "MeetingPlanL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-book-demo-meeting-plan",
+      "modelProjection": "MeetingPlanL"
+    }
+  ]
+}

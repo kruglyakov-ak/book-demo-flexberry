@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "Спикер",
+  "name": "IISbookDemoSpeakerE",
+  "className": "SpeakerE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-book-demo-speaker",
+      "modelProjection": "SpeakerE"
+    }
+  ]
+}

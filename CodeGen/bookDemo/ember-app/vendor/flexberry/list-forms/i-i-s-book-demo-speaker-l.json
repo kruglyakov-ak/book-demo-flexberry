@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-book-demo-speaker-e",
+  "editForm": "i-i-s-book-demo-speaker-e",
+  "external": false,
+  "caption": "Спикеры",
+  "name": "IISbookDemoSpeakerL",
+  "className": "SpeakerL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-book-demo-speaker",
+      "modelProjection": "SpeakerL"
+    }
+  ]
+}
