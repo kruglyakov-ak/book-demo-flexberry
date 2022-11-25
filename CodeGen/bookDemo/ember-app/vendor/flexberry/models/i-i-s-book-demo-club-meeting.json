@@ -40,7 +40,7 @@
       "hasMany": [
         {
           "projectionName": "ReportE",
-          "caption": "Report",
+          "caption": "Доклад",
           "name": "report",
           "relatedTo": "i-i-s-book-demo-report",
           "inverse": null
@@ -59,7 +59,15 @@
         }
       ],
       "belongsTo": [],
-      "hasMany": []
+      "hasMany": [
+        {
+          "projectionName": "ReportE",
+          "caption": "Доклад",
+          "name": "report",
+          "relatedTo": "i-i-s-book-demo-report",
+          "inverse": null
+        }
+      ]
     }
   ],
   "stored": true,

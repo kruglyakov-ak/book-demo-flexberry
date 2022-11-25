@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace IIS.bookDemo
+namespace IIS.BookDemo
 {
     using System;
     using System.Xml;
@@ -31,16 +31,18 @@ namespace IIS.bookDemo
     [AccessType(ICSSoft.STORMNET.AccessType.none)]
     [View("ClubMeetingE", new string[] {
             "MeetingDate as \'Дата встречи\'"})]
-    [AssociatedDetailViewAttribute("ClubMeetingE", "Report", "ReportE", true, "", "Report", true, new string[] {
+    [AssociatedDetailViewAttribute("ClubMeetingE", "Report", "ReportE", true, "", "Доклад", true, new string[] {
             ""})]
     [View("ClubMeetingL", new string[] {
             "MeetingDate as \'Дата встречи\'"})]
+    [AssociatedDetailViewAttribute("ClubMeetingL", "Report", "ReportE", true, "", "Доклад", true, new string[] {
+            ""})]
     public class ClubMeeting : ICSSoft.STORMNET.DataObject
     {
         
         private System.DateTime fMeetingDate;
         
-        private IIS.bookDemo.DetailArrayOfReport fReport;
+        private IIS.BookDemo.DetailArrayOfReport fReport;
         
         // *** Start programmer edit section *** (ClubMeeting CustomMembers)
 
@@ -84,7 +86,7 @@ namespace IIS.bookDemo
         // *** Start programmer edit section *** (ClubMeeting.Report CustomAttributes)
 
         // *** End programmer edit section *** (ClubMeeting.Report CustomAttributes)
-        public virtual IIS.bookDemo.DetailArrayOfReport Report
+        public virtual IIS.BookDemo.DetailArrayOfReport Report
         {
             get
             {
@@ -93,9 +95,9 @@ namespace IIS.bookDemo
                 // *** End programmer edit section *** (ClubMeeting.Report Get start)
                 if ((this.fReport == null))
                 {
-                    this.fReport = new IIS.bookDemo.DetailArrayOfReport(this);
+                    this.fReport = new IIS.BookDemo.DetailArrayOfReport(this);
                 }
-                IIS.bookDemo.DetailArrayOfReport result = this.fReport;
+                IIS.BookDemo.DetailArrayOfReport result = this.fReport;
                 // *** Start programmer edit section *** (ClubMeeting.Report Get end)
 
                 // *** End programmer edit section *** (ClubMeeting.Report Get end)
@@ -126,7 +128,7 @@ namespace IIS.bookDemo
             {
                 get
                 {
-                    return ICSSoft.STORMNET.Information.GetView("ClubMeetingE", typeof(IIS.bookDemo.ClubMeeting));
+                    return ICSSoft.STORMNET.Information.GetView("ClubMeetingE", typeof(IIS.BookDemo.ClubMeeting));
                 }
             }
             
@@ -137,7 +139,7 @@ namespace IIS.bookDemo
             {
                 get
                 {
-                    return ICSSoft.STORMNET.Information.GetView("ClubMeetingL", typeof(IIS.bookDemo.ClubMeeting));
+                    return ICSSoft.STORMNET.Information.GetView("ClubMeetingL", typeof(IIS.BookDemo.ClubMeeting));
                 }
             }
         }

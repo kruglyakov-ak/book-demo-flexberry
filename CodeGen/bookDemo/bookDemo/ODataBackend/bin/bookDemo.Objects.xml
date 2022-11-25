@@ -4,192 +4,192 @@
         <name>bookDemo.Objects</name>
     </assembly>
     <members>
-        <member name="T:IIS.bookDemo.Application">
+        <member name="T:IIS.BookDemo.Application">
             <summary>
             Заявка.
             </summary>
         </member>
-        <member name="P:IIS.bookDemo.Application.ApplicationDate">
+        <member name="P:IIS.BookDemo.Application.ApplicationDate">
             <summary>
             ApplicationDate.
             </summary>
         </member>
-        <member name="P:IIS.bookDemo.Application.Book">
+        <member name="P:IIS.BookDemo.Application.Book">
             <summary>
             Заявка.
             </summary>
         </member>
-        <member name="P:IIS.bookDemo.Application.Speaker">
+        <member name="P:IIS.BookDemo.Application.Speaker">
             <summary>
             Заявка.
             </summary>
         </member>
-        <member name="T:IIS.bookDemo.Application.Views">
+        <member name="T:IIS.BookDemo.Application.Views">
             <summary>
             Class views container.
             </summary>
         </member>
-        <member name="P:IIS.bookDemo.Application.Views.ApplicationE">
+        <member name="P:IIS.BookDemo.Application.Views.ApplicationE">
             <summary>
             "ApplicationE" view.
             </summary>
         </member>
-        <member name="P:IIS.bookDemo.Application.Views.ApplicationL">
+        <member name="P:IIS.BookDemo.Application.Views.ApplicationL">
             <summary>
             "ApplicationL" view.
             </summary>
         </member>
-        <member name="T:IIS.bookDemo.Book">
+        <member name="T:IIS.BookDemo.Book">
             <summary>
             Книга.
             </summary>
         </member>
-        <member name="P:IIS.bookDemo.Book.Name">
+        <member name="P:IIS.BookDemo.Book.Name">
             <summary>
             Name.
             </summary>
         </member>
-        <member name="P:IIS.bookDemo.Book.Author">
+        <member name="P:IIS.BookDemo.Book.Author">
             <summary>
             Author.
             </summary>
         </member>
-        <member name="P:IIS.bookDemo.Book.StringCount">
+        <member name="P:IIS.BookDemo.Book.StringCount">
             <summary>
             StringCount.
             </summary>
         </member>
-        <member name="P:IIS.bookDemo.Book.URLCover">
+        <member name="P:IIS.BookDemo.Book.URLCover">
             <summary>
             URLCover.
             </summary>
         </member>
-        <member name="P:IIS.bookDemo.Book.URLDescription">
+        <member name="P:IIS.BookDemo.Book.URLDescription">
             <summary>
             URLDescription.
             </summary>
         </member>
-        <member name="P:IIS.bookDemo.Book.Tags">
+        <member name="P:IIS.BookDemo.Book.Tags">
             <summary>
             Tags.
             </summary>
         </member>
-        <member name="P:IIS.bookDemo.Book.AverageRating">
+        <member name="P:IIS.BookDemo.Book.AverageRating">
             <summary>
             AverageRating.
             </summary>
         </member>
-        <member name="T:IIS.bookDemo.Book.Views">
+        <member name="T:IIS.BookDemo.Book.Views">
             <summary>
             Class views container.
             </summary>
         </member>
-        <member name="P:IIS.bookDemo.Book.Views.BookE">
+        <member name="P:IIS.BookDemo.Book.Views.BookE">
             <summary>
             "BookE" view.
             </summary>
         </member>
-        <member name="P:IIS.bookDemo.Book.Views.BookL">
+        <member name="P:IIS.BookDemo.Book.Views.BookL">
             <summary>
             "BookL" view.
             </summary>
         </member>
-        <member name="T:IIS.bookDemo.Speaker">
+        <member name="T:IIS.BookDemo.Speaker">
             <summary>
             Спикер.
             </summary>
         </member>
-        <member name="P:IIS.bookDemo.Speaker.Surname">
+        <member name="P:IIS.BookDemo.Speaker.Surname">
             <summary>
             Surname.
             </summary>
         </member>
-        <member name="P:IIS.bookDemo.Speaker.Name">
+        <member name="P:IIS.BookDemo.Speaker.Name">
             <summary>
             Name.
             </summary>
         </member>
-        <member name="P:IIS.bookDemo.Speaker.Patronymic">
+        <member name="P:IIS.BookDemo.Speaker.Patronymic">
             <summary>
             Patronymic.
             </summary>
         </member>
-        <member name="T:IIS.bookDemo.Speaker.Views">
+        <member name="T:IIS.BookDemo.Speaker.Views">
             <summary>
             Class views container.
             </summary>
         </member>
-        <member name="P:IIS.bookDemo.Speaker.Views.SpeakerE">
+        <member name="P:IIS.BookDemo.Speaker.Views.SpeakerE">
             <summary>
             "SpeakerE" view.
             </summary>
         </member>
-        <member name="P:IIS.bookDemo.Speaker.Views.SpeakerL">
+        <member name="P:IIS.BookDemo.Speaker.Views.SpeakerL">
             <summary>
             "SpeakerL" view.
             </summary>
         </member>
-        <member name="T:IIS.bookDemo.Report">
+        <member name="T:IIS.BookDemo.Report">
             <summary>
             Доклад.
             </summary>
         </member>
-        <member name="P:IIS.bookDemo.Report.ReportDate">
+        <member name="P:IIS.BookDemo.Report.ReportDate">
             <summary>
             ReportDate.
             </summary>
         </member>
-        <member name="P:IIS.bookDemo.Report.BookRating">
+        <member name="P:IIS.BookDemo.Report.BookRating">
             <summary>
             BookRating.
             </summary>
         </member>
-        <member name="P:IIS.bookDemo.Report.URLPresentation">
+        <member name="P:IIS.BookDemo.Report.URLPresentation">
             <summary>
             URLPresentation.
             </summary>
         </member>
-        <member name="P:IIS.bookDemo.Report.URLVideo">
+        <member name="P:IIS.BookDemo.Report.URLVideo">
             <summary>
             URLVideo.
             </summary>
         </member>
-        <member name="P:IIS.bookDemo.Report.Review">
+        <member name="P:IIS.BookDemo.Report.Review">
             <summary>
             Review.
             </summary>
         </member>
-        <member name="P:IIS.bookDemo.Report.Book">
+        <member name="P:IIS.BookDemo.Report.Book">
             <summary>
             Доклад.
             </summary>
         </member>
-        <member name="P:IIS.bookDemo.Report.Speaker">
+        <member name="P:IIS.BookDemo.Report.Speaker">
             <summary>
             Доклад.
             </summary>
         </member>
-        <member name="P:IIS.bookDemo.Report.ClubMeeting">
+        <member name="P:IIS.BookDemo.Report.ClubMeeting">
             <summary>
-            мастеровая ссылка на шапку IIS.bookDemo.ClubMeeting.
+            мастеровая ссылка на шапку IIS.BookDemo.ClubMeeting.
             </summary>
         </member>
-        <member name="T:IIS.bookDemo.Report.Views">
+        <member name="T:IIS.BookDemo.Report.Views">
             <summary>
             Class views container.
             </summary>
         </member>
-        <member name="P:IIS.bookDemo.Report.Views.ReportE">
+        <member name="P:IIS.BookDemo.Report.Views.ReportE">
             <summary>
             "ReportE" view.
             </summary>
         </member>
-        <member name="T:IIS.bookDemo.DetailArrayOfReport">
+        <member name="T:IIS.BookDemo.DetailArrayOfReport">
             <summary>
             Detail array of Report.
             </summary>
         </member>
-        <member name="M:IIS.bookDemo.DetailArrayOfReport.#ctor(IIS.bookDemo.ClubMeeting)">
+        <member name="M:IIS.BookDemo.DetailArrayOfReport.#ctor(IIS.BookDemo.ClubMeeting)">
             <summary>
             Construct detail array.
             </summary>
@@ -200,57 +200,57 @@
             Adds object with type Report.
             </summary>
         </member>
-        <member name="T:IIS.bookDemo.ClubMeeting">
+        <member name="T:IIS.BookDemo.ClubMeeting">
             <summary>
             Встреча клуба.
             </summary>
         </member>
-        <member name="P:IIS.bookDemo.ClubMeeting.MeetingDate">
+        <member name="P:IIS.BookDemo.ClubMeeting.MeetingDate">
             <summary>
             MeetingDate.
             </summary>
         </member>
-        <member name="P:IIS.bookDemo.ClubMeeting.Report">
+        <member name="P:IIS.BookDemo.ClubMeeting.Report">
             <summary>
             Встреча клуба.
             </summary>
         </member>
-        <member name="T:IIS.bookDemo.ClubMeeting.Views">
+        <member name="T:IIS.BookDemo.ClubMeeting.Views">
             <summary>
             Class views container.
             </summary>
         </member>
-        <member name="P:IIS.bookDemo.ClubMeeting.Views.ClubMeetingE">
+        <member name="P:IIS.BookDemo.ClubMeeting.Views.ClubMeetingE">
             <summary>
             "ClubMeetingE" view.
             </summary>
         </member>
-        <member name="P:IIS.bookDemo.ClubMeeting.Views.ClubMeetingL">
+        <member name="P:IIS.BookDemo.ClubMeeting.Views.ClubMeetingL">
             <summary>
             "ClubMeetingL" view.
             </summary>
         </member>
-        <member name="T:IIS.bookDemo.MeetingPlan">
+        <member name="T:IIS.BookDemo.MeetingPlan">
             <summary>
             План встречи.
             </summary>
         </member>
-        <member name="P:IIS.bookDemo.MeetingPlan.MeetingDate">
+        <member name="P:IIS.BookDemo.MeetingPlan.MeetingDate">
             <summary>
             MeetingDate.
             </summary>
         </member>
-        <member name="T:IIS.bookDemo.MeetingPlan.Views">
+        <member name="T:IIS.BookDemo.MeetingPlan.Views">
             <summary>
             Class views container.
             </summary>
         </member>
-        <member name="P:IIS.bookDemo.MeetingPlan.Views.MeetingPlanE">
+        <member name="P:IIS.BookDemo.MeetingPlan.Views.MeetingPlanE">
             <summary>
             "MeetingPlanE" view.
             </summary>
         </member>
-        <member name="P:IIS.bookDemo.MeetingPlan.Views.MeetingPlanL">
+        <member name="P:IIS.BookDemo.MeetingPlan.Views.MeetingPlanL">
             <summary>
             "MeetingPlanL" view.
             </summary>

@@ -29,7 +29,7 @@ export let ValidationRules = {
 export let defineProjections = function (modelClass) {
   modelClass.defineProjection('ClubMeetingE', 'i-i-s-book-demo-club-meeting', {
     meetingDate: attr('Дата встречи', { index: 0 }),
-    report: hasMany('i-i-s-book-demo-report', 'Report', {
+    report: hasMany('i-i-s-book-demo-report', 'Доклад', {
       reportDate: attr('Дата доклада', { index: 0 }),
       bookRating: attr('Оценка книги', { index: 1 }),
       uRLPresentation: attr('Ссылка на презентауию', { index: 2 }),
@@ -45,6 +45,19 @@ export let defineProjections = function (modelClass) {
   });
 
   modelClass.defineProjection('ClubMeetingL', 'i-i-s-book-demo-club-meeting', {
-    meetingDate: attr('Дата встречи', { index: 0 })
+    meetingDate: attr('Дата встречи', { index: 0 }),
+    report: hasMany('i-i-s-book-demo-report', 'Доклад', {
+      reportDate: attr('Дата доклада', { index: 0 }),
+      bookRating: attr('Оценка книги', { index: 1 }),
+      uRLPresentation: attr('Ссылка на презентауию', { index: 2 }),
+      uRLVideo: attr('Ссылка на видео', { index: 3 }),
+      review: attr('Отзыв', { index: 4 }),
+      speaker: belongsTo('i-i-s-book-demo-speaker', 'Спикер', {
+        surname: attr('~', { index: 6, hidden: true })
+      }, { index: 5, displayMemberPath: 'surname' }),
+      book: belongsTo('i-i-s-book-demo-book', 'Книга', {
+        name: attr('~', { index: 8, hidden: true })
+      }, { index: 7, displayMemberPath: 'name' })
+    })
   });
 };

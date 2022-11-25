@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace IIS.bookDemo
+namespace IIS.BookDemo
 {
     using System;
     using System.Xml;
@@ -50,9 +50,9 @@ namespace IIS.bookDemo
         
         private System.DateTime fApplicationDate;
         
-        private IIS.bookDemo.Book fBook;
+        private IIS.BookDemo.Book fBook;
         
-        private IIS.bookDemo.Speaker fSpeaker;
+        private IIS.BookDemo.Speaker fSpeaker;
         
         // *** Start programmer edit section *** (Application CustomMembers)
 
@@ -99,14 +99,14 @@ namespace IIS.bookDemo
         [PropertyStorage(new string[] {
                 "Книга"})]
         [NotNull()]
-        public virtual IIS.bookDemo.Book Book
+        public virtual IIS.BookDemo.Book Book
         {
             get
             {
                 // *** Start programmer edit section *** (Application.Book Get start)
 
                 // *** End programmer edit section *** (Application.Book Get start)
-                IIS.bookDemo.Book result = this.fBook;
+                IIS.BookDemo.Book result = this.fBook;
                 // *** Start programmer edit section *** (Application.Book Get end)
 
                 // *** End programmer edit section *** (Application.Book Get end)
@@ -133,14 +133,14 @@ namespace IIS.bookDemo
         [PropertyStorage(new string[] {
                 "Спикер"})]
         [NotNull()]
-        public virtual IIS.bookDemo.Speaker Speaker
+        public virtual IIS.BookDemo.Speaker Speaker
         {
             get
             {
                 // *** Start programmer edit section *** (Application.Speaker Get start)
 
                 // *** End programmer edit section *** (Application.Speaker Get start)
-                IIS.bookDemo.Speaker result = this.fSpeaker;
+                IIS.BookDemo.Speaker result = this.fSpeaker;
                 // *** Start programmer edit section *** (Application.Speaker Get end)
 
                 // *** End programmer edit section *** (Application.Speaker Get end)
@@ -171,7 +171,7 @@ namespace IIS.bookDemo
             {
                 get
                 {
-                    return ICSSoft.STORMNET.Information.GetView("ApplicationE", typeof(IIS.bookDemo.Application));
+                    return ICSSoft.STORMNET.Information.GetView("ApplicationE", typeof(IIS.BookDemo.Application));
                 }
             }
             
@@ -182,7 +182,7 @@ namespace IIS.bookDemo
             {
                 get
                 {
-                    return ICSSoft.STORMNET.Information.GetView("ApplicationL", typeof(IIS.bookDemo.Application));
+                    return ICSSoft.STORMNET.Information.GetView("ApplicationL", typeof(IIS.BookDemo.Application));
                 }
             }
         }

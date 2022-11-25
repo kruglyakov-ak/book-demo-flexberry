@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace IIS.bookDemo
+namespace IIS.BookDemo
 {
     using System;
     using System.Xml;
@@ -56,11 +56,11 @@ namespace IIS.bookDemo
         
         private string fReview;
         
-        private IIS.bookDemo.Book fBook;
+        private IIS.BookDemo.Book fBook;
         
-        private IIS.bookDemo.Speaker fSpeaker;
+        private IIS.BookDemo.Speaker fSpeaker;
         
-        private IIS.bookDemo.ClubMeeting fClubMeeting;
+        private IIS.BookDemo.ClubMeeting fClubMeeting;
         
         // *** Start programmer edit section *** (Report CustomMembers)
 
@@ -234,14 +234,14 @@ namespace IIS.bookDemo
         [PropertyStorage(new string[] {
                 "Книга"})]
         [NotNull()]
-        public virtual IIS.bookDemo.Book Book
+        public virtual IIS.BookDemo.Book Book
         {
             get
             {
                 // *** Start programmer edit section *** (Report.Book Get start)
 
                 // *** End programmer edit section *** (Report.Book Get start)
-                IIS.bookDemo.Book result = this.fBook;
+                IIS.BookDemo.Book result = this.fBook;
                 // *** Start programmer edit section *** (Report.Book Get end)
 
                 // *** End programmer edit section *** (Report.Book Get end)
@@ -268,14 +268,14 @@ namespace IIS.bookDemo
         [PropertyStorage(new string[] {
                 "Спикер"})]
         [NotNull()]
-        public virtual IIS.bookDemo.Speaker Speaker
+        public virtual IIS.BookDemo.Speaker Speaker
         {
             get
             {
                 // *** Start programmer edit section *** (Report.Speaker Get start)
 
                 // *** End programmer edit section *** (Report.Speaker Get start)
-                IIS.bookDemo.Speaker result = this.fSpeaker;
+                IIS.BookDemo.Speaker result = this.fSpeaker;
                 // *** Start programmer edit section *** (Report.Speaker Get end)
 
                 // *** End programmer edit section *** (Report.Speaker Get end)
@@ -294,7 +294,7 @@ namespace IIS.bookDemo
         }
         
         /// <summary>
-        /// мастеровая ссылка на шапку IIS.bookDemo.ClubMeeting.
+        /// мастеровая ссылка на шапку IIS.BookDemo.ClubMeeting.
         /// </summary>
         // *** Start programmer edit section *** (Report.ClubMeeting CustomAttributes)
 
@@ -303,14 +303,14 @@ namespace IIS.bookDemo
         [NotNull()]
         [PropertyStorage(new string[] {
                 "ВстречаКлуба"})]
-        public virtual IIS.bookDemo.ClubMeeting ClubMeeting
+        public virtual IIS.BookDemo.ClubMeeting ClubMeeting
         {
             get
             {
                 // *** Start programmer edit section *** (Report.ClubMeeting Get start)
 
                 // *** End programmer edit section *** (Report.ClubMeeting Get start)
-                IIS.bookDemo.ClubMeeting result = this.fClubMeeting;
+                IIS.BookDemo.ClubMeeting result = this.fClubMeeting;
                 // *** Start programmer edit section *** (Report.ClubMeeting Get end)
 
                 // *** End programmer edit section *** (Report.ClubMeeting Get end)
@@ -341,7 +341,7 @@ namespace IIS.bookDemo
             {
                 get
                 {
-                    return ICSSoft.STORMNET.Information.GetView("ReportE", typeof(IIS.bookDemo.Report));
+                    return ICSSoft.STORMNET.Information.GetView("ReportE", typeof(IIS.BookDemo.Report));
                 }
             }
         }
@@ -356,9 +356,9 @@ namespace IIS.bookDemo
     public class DetailArrayOfReport : ICSSoft.STORMNET.DetailArray
     {
         
-        // *** Start programmer edit section *** (IIS.bookDemo.DetailArrayOfReport members)
+        // *** Start programmer edit section *** (IIS.BookDemo.DetailArrayOfReport members)
 
-        // *** End programmer edit section *** (IIS.bookDemo.DetailArrayOfReport members)
+        // *** End programmer edit section *** (IIS.BookDemo.DetailArrayOfReport members)
 
         
         /// <summary>
@@ -370,20 +370,20 @@ namespace IIS.bookDemo
         /// <summary>
         /// Adds object with type Report.
         /// </summary>
-        public DetailArrayOfReport(IIS.bookDemo.ClubMeeting fClubMeeting) : 
+        public DetailArrayOfReport(IIS.BookDemo.ClubMeeting fClubMeeting) : 
                 base(typeof(Report), ((ICSSoft.STORMNET.DataObject)(fClubMeeting)))
         {
         }
         
-        public IIS.bookDemo.Report this[int index]
+        public IIS.BookDemo.Report this[int index]
         {
             get
             {
-                return ((IIS.bookDemo.Report)(this.ItemByIndex(index)));
+                return ((IIS.BookDemo.Report)(this.ItemByIndex(index)));
             }
         }
         
-        public virtual void Add(IIS.bookDemo.Report dataobject)
+        public virtual void Add(IIS.BookDemo.Report dataobject)
         {
             this.AddObject(((ICSSoft.STORMNET.DataObject)(dataobject)));
         }

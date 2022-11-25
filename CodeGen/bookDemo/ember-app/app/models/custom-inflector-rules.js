@@ -6,7 +6,7 @@ inflector.irregular('application', 'Applications');
 inflector.irregular('meeting', 'Meetings');
 inflector.irregular('speaker', 'Speakers');
 inflector.irregular('report', 'Reports');
-inflector.irregular('book', 'Books');
+inflector.irregular('demo-book', 'DemoBooks');
 inflector.irregular('plan', 'Plans');
 
 export default {};

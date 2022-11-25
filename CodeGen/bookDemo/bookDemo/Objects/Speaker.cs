@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace IIS.bookDemo
+namespace IIS.BookDemo
 {
     using System;
     using System.Xml;
@@ -160,7 +160,7 @@ namespace IIS.bookDemo
             {
                 get
                 {
-                    return ICSSoft.STORMNET.Information.GetView("SpeakerE", typeof(IIS.bookDemo.Speaker));
+                    return ICSSoft.STORMNET.Information.GetView("SpeakerE", typeof(IIS.BookDemo.Speaker));
                 }
             }
             
@@ -171,7 +171,7 @@ namespace IIS.bookDemo
             {
                 get
                 {
-                    return ICSSoft.STORMNET.Information.GetView("SpeakerL", typeof(IIS.bookDemo.Speaker));
+                    return ICSSoft.STORMNET.Information.GetView("SpeakerL", typeof(IIS.BookDemo.Speaker));
                 }
             }
         }
