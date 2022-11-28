@@ -1,5 +1,5 @@
 export default {
-  caption: 'Application',
+  caption: 'Заявка',
   'applicationDate-caption': 'Дата заявки',
   'speaker.patronymic-caption': '~',
   'speaker-caption': 'Спикер',

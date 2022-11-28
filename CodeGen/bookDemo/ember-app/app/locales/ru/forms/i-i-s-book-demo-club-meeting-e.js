@@ -1,5 +1,5 @@
 export default {
-  caption: 'Club meeting',
+  caption: 'Встреча клуба',
   'meetingDate-caption': 'Дата встречи',
-  'report-caption': 'Report'
+  'report-caption': 'Доклады'
 };

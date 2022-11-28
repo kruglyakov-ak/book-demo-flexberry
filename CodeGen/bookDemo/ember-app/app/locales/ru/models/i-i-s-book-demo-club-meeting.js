@@ -5,32 +5,32 @@ export default {
         __caption__: 'Дата встречи'
       },
       report: {
-        __caption__: 'Report',
+        __caption__: 'Доклад',
         reportDate: {
-          __caption__: 'Report date'
+          __caption__: 'Дата доклада'
         },
         bookRating: {
-          __caption__: 'Book rating'
+          __caption__: 'Оценка книги'
         },
         uRLPresentation: {
-          __caption__: 'U r l presentation'
+          __caption__: 'Ссылка на презентауию'
         },
         uRLVideo: {
-          __caption__: 'U r l video'
+          __caption__: 'Ссылка на видео'
         },
         review: {
-          __caption__: 'Review'
+          __caption__: 'Отзыв'
         },
         speaker: {
-          __caption__: 'Speaker',
+          __caption__: 'Спикер',
           surname: {
-            __caption__: 'Surname'
+            __caption__: '~'
           }
         },
         book: {
-          __caption__: 'Book',
+          __caption__: 'Книга',
           name: {
-            __caption__: 'Name'
+            __caption__: '~'
           }
         }
       }
@@ -76,7 +76,7 @@ export default {
       __caption__: 'Дата встречи'
     },
     report: {
-      __caption__: 'Report'
+      __caption__: 'Доклад'
     }
   }
 };

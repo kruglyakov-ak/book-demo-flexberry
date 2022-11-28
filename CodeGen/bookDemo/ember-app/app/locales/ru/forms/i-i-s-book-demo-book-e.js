@@ -1,5 +1,5 @@
 export default {
-  caption: 'Book',
+  caption: 'Книга',
   'name-caption': 'Название',
   'author-caption': 'Автор',
   'stringCount-caption': 'Количество страниц',

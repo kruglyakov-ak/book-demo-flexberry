@@ -1,3 +1,3 @@
 export default {
-  caption: 'Meeting plan'
+  caption: 'Планы встреч'
 };

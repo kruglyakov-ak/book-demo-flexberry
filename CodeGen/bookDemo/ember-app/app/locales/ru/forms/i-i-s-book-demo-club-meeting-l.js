@@ -1,3 +1,3 @@
 export default {
-  caption: 'Club meeting'
+  caption: 'Встречи клуба'
 };

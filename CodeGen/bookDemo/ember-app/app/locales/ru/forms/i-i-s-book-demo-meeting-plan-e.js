@@ -1,4 +1,4 @@
 export default {
-  caption: 'Meeting plan',
+  caption: 'План встречи',
   'meetingDate-caption': 'Дата встречи'
 };
